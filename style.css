@@ -51,8 +51,12 @@ img {
 .trees {
   display: flex;
   flex-wrap: wrap;
+  gap: 10px;
   row-gap: 30px;
-  gap: 50px;
+  justify-content: space-between;
+}
+.index {
+  padding: 30px;
 }
 
 .rutor {
